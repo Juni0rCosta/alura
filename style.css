@@ -6,7 +6,7 @@
 }
 
 :root {
-  --hue: 324;
+  --hue: 75;
 
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline-color: hsl(210, 11%, 15%);
@@ -95,7 +95,7 @@ section .content p {
 #backToTopButton,
 div.card img,
 #contact .wrapper li img {
-  filter: hue-rotate(106deg);
+  filter: hue-rotate(270deg);
 }
 /*HOME=====================================================*/
 #navigation .logo path[fill*='#00856F'] {
